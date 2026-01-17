@@ -1,0 +1,69 @@
+############# French navigation ##############
+
+# Top-level menu item: Gammes
+[[main]]
+name = "Gammes"
+url = "#"
+identifier = "gammes"
+weight = 1
+
+# Sub-menu items for Gammes
+[[main]]
+name = "Signature"
+url = "gammes/signature/"
+parent = "gammes"
+weight = 1
+[[main]]
+name = "Lessio"
+url = "gammes/lessio/"
+parent = "gammes"
+weight = 2
+[[main]]
+name = "B & B"
+url = "gammes/b-and-b/"
+parent = "gammes"
+weight = 3
+[[main]]
+name = "Design events"
+url = "gammes/design-events/"
+parent = "gammes"
+weight = 4
+[[main]]
+name = "Harmony"
+url = "gammes/harmony/"
+parent = "gammes"
+weight = 5
+
+
+# Top-level menu item: Location
+[[main]]
+name = "Services"
+url = "services"
+identifier = "services"
+weight = 2
+
+# Top-level menu item: Galerie photo
+[[main]]
+name = "Galerie"
+url = "gallerie"
+identifier = "galerie"
+weight = 3
+
+# Top-level menu item: Contact
+[[main]]
+name = "Contact"
+url = "contact"
+identifier = "contact"
+weight = 5
+
+
+# Top-level menu item: Espace clients (no sub-menu)
+[[main]]
+name = "Espace clients"
+url = "#"
+weight = 6
+
+[[footer]]
+name = "Politique de Confidentialité"
+url = "/privacy-policy"
+weight = 7
