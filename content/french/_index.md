@@ -1,5 +1,5 @@
 ---
-title: "Accueil"
+title: "Selecta"
 # The banner section at the top of the page
 banner:
   title: "Location de Nappages"

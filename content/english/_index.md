@@ -1,53 +1,33 @@
 ---
-# Banner
+title: "Selecta"
+# The banner section at the top of the page
 banner:
-  title: "The Ultimate Starter Template You Need To Start Your Hugo Project"
-  content: "Hugoplate is a free starter template built with Hugo and TailwindCSS, providing everything you need to jumpstart your Hugo project and save valuable time."
-  image: "/images/banner.png"
+  title: "Location de Nappages"
+  content: "Un service de location de linge et de vêtements professionnels pour l'horeca, les collectivités et les entreprises. Actifs dans toute la Belgique et pays 
+limitrophes."
+  image: "/images/homepage/banner.png" # You can change this to a main hero image if you like
   button:
     enable: true
-    label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/hugoplate"
+    label: "Contactez-nous"
+    link: "contact/"
 
-# Features
+# This is the section where your slider content will go
 features:
-  - title: "What's Included in Hugoplate"
-    image: "/images/service-1.png"
-    content: "Hugoplate is a comprehensive starter template that includes everything you need to get started with your Hugo project. What's Included in Hugoplate"
-    bulletpoints:
-      - "10+ Pre-build pages"
-      - "95+ Google Pagespeed Score"
-      - "Build with Hugo and TailwindCSS for easy and customizable styling"
-      - "Fully responsive on all devices"
-      - "SEO-optimized for better search engine rankings"
-      - "**Open-source and free** for personal and commercial use"
-    button:
-      enable: false
-      label: "Get Started Now"
-      link: "#"
+  - title: "Technologie SoftTouch"
+    content: "Nos tissus 'Signature' offrent la technologie 'SoftTouch'. Un toucher coton exceptionnel et une très grande solidité. De plus ils bénéficient d'un très haut 
+pouvoir absorbant."
+    image: "/images/homepage/slide-2.jpg" # Use the image name you saved
 
-  - title: "Discover the Key Features Of Hugo"
-    image: "/images/service-2.png"
-    content: "Hugo is an all-in-one web framework for building fast, content-focused websites. It offers a range of exciting features for developers and website creators. Some of the key features are:"
-    bulletpoints:
-      - "Zero JS, by default: No JavaScript runtime overhead to slow you down."
-      - "Customizable: Tailwind, MDX, and 100+ other integrations to choose from."
-      - "UI-agnostic: Supports React, Preact, Svelte, Vue, Solid, Lit and more."
-    button:
-      enable: true
-      label: "Get Started Now"
-      link: "https://github.com/zeon-studio/hugoplate"
+  - title: "Suivi par Puce Électronique (RFID)"
+    content: "Tous nos nappages sont discrètement munis d'une puce électronique (RFID). De cette façon nous pouvons suivre chaque pièce pour tous nos clients."
+    image: "/images/homepage/slide-3.jpg" # Use the image name you saved
 
-  - title: "The Top Reasons to Choose Hugo for Your Hugo Project"
-    image: "/images/service-3.png"
-    content: "With Hugo, you can build modern and content-focused websites without sacrificing performance or ease of use."
-    bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Hugo a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
-    button:
-      enable: false
-      label: ""
-      link: ""
+  - title: "Un Nappage Impeccable"
+    content: "Une maîtrise totale du processus de lavage et de repassage, nous permet de vous fournir un nappage impeccable tant au niveau propreté qu'au niveau présentation. Selecta est une entreprise écologiquement responsable et adapte constament ses process de production."
+    image: "/images/homepage/slide-4.jpg" # Use the image name you saved
+
+  - title: "Un Partenaire Fiable"
+    content: "Une longue expérience du monde de l'horeca et un matériel à la pointe de la technologie font de Selecta un partenaire fiable et incontournable. Selecta et toute son équipe mettra tout en oeuvre pour que vous puissiez mettre au mieux votre nom en avant."
+    image: "/images/homepage/slide-5.jpg" # Use the image name you saved
 ---
+

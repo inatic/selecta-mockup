@@ -1,63 +1,67 @@
-############# English navigation ##############
+############# French navigation ##############
 
-# main menu
+# Top-level menu item: Ranges
 [[main]]
-name = "Home"
-url = "/"
+name = "Ranges"
+url = "#"
+identifier = "gammes"
 weight = 1
 
+# Sub-menu items for Ranges
 [[main]]
-name = "About"
-url = "/about"
+name = "Signature"
+url = "gammes/signature/"
+parent = "gammes"
+weight = 1
+[[main]]
+name = "Lessio"
+url = "gammes/lessio/"
+parent = "gammes"
+weight = 2
+[[main]]
+name = "B & B"
+url = "gammes/b-and-b/"
+parent = "gammes"
+weight = 3
+[[main]]
+name = "Design events"
+url = "gammes/design-events/"
+parent = "gammes"
+weight = 4
+[[main]]
+name = "Harmony"
+url = "gammes/harmony/"
+parent = "gammes"
+weight = 5
+
+
+# Top-level menu item: Location
+[[main]]
+name = "Services"
+url = "services"
 weight = 2
 
+# Top-level menu item: Galerie photo
 [[main]]
-name = "Elements"
-url = "/elements"
+name = "Galery"
+url = "gallerie"
 weight = 3
 
+# Top-level menu item: Contact
 [[main]]
-weight = 4
-name = "Pages"
-
-[[main]]
-parent = "Pages"
-name = "Blog"
-url = "/blog"
-
-[[main]]
-parent = "Pages"
 name = "Contact"
-url = "/contact"
+url = "contact"
+identifier = "contact"
+weight = 5
 
+
+# Top-level menu item: Espace clients (no sub-menu)
 [[main]]
-parent = "Pages"
-name = "Authors"
-url = "/authors"
-
-[[main]]
-parent = "Pages"
-name = "Categories"
-url = "/categories"
-
-[[main]]
-parent = "Pages"
-name = "404 Page"
-url = "/404"
-
-
-# footer menu
-[[footer]]
-name = "About"
-url = "/about"
-weight = 1
-
-[[footer]]
-name = "Elements"
-url = "/elements"
-weight = 2
+name = "Client Area"
+url = "#"
+weight = 6
 
 [[footer]]
 name = "Privacy Policy"
 url = "/privacy-policy"
-weight = 3
+weight = 7
